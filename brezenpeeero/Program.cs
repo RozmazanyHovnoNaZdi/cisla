@@ -6,10 +6,6 @@ int monster = Convert.ToInt32(Console.ReadLine());
 
 
 if (redbull > monster)
-{
     Console.WriteLine($"Číslo {redbull} je větší než číslo {monster}");
-}
 else
-{
     Console.WriteLine($"Číslo {monster} je větší než číslo {redbull}");
-}
